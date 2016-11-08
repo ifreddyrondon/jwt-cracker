@@ -1,0 +1,26 @@
+{
+  "name": "jwt-cracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jwt",
+    "token",
+    "zeromq",
+    "node"
+  ],
+  "author": "Freddy Rondon @ifreddyrondon",
+  "license": "ISC",
+  "dependencies": {
+    "big-integer": "^1.6.16",
+    "dateformat": "^1.0.12",
+    "indexed-string-variation": "^1.0.2",
+    "jsonwebtoken": "^7.1.9",
+    "winston": "^2.3.0",
+    "yargs": "^5.0.0",
+    "zmq": "^2.15.3"
+  }
+}
